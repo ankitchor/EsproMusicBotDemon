@@ -6,17 +6,28 @@ from EsproMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
+# Initialize directories, git, database and heroku
 dirr()
 git()
 dbb()
 heroku()
 
+# Initialize bot and userbot
 app = Loy()
 userbot = Userbot()
 
+# Import platform APIs
+from .platforms import (
+    AppleAPI,
+    CarbonAPI,
+    SoundAPI,
+    SpotifyAPI,
+    RessoAPI,
+    TeleAPI,
+    YouTubeAPI,
+)
 
-from .platforms import *
-
+# Initialize platform APIs
 Apple = AppleAPI()
 Carbon = CarbonAPI()
 SoundCloud = SoundAPI()
