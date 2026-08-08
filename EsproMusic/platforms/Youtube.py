@@ -20,7 +20,7 @@ from urllib.parse import urlparse
 import EsproMusic
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from py_yt import VideosSearch
+from EsproMusic import VideosSearch
 
 from EsproMusic.utils.cookie_handler import COOKIE_PATH
 from EsproMusic.utils.database import is_on_off
