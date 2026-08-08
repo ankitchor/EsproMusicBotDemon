@@ -24,6 +24,12 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None))
 
+# ── External APIs ──────────────────────────────────────────────────────────
+COOKIE_URL = getenv("COOKIE_URL", "https://pastebin.com/RurxsvMF")
+API_URL = getenv("API_URL")        # optional
+API_KEY = getenv("API_KEY")        # optional 
+DEEP_API = getenv("DEEP_API")      # optional
+
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
