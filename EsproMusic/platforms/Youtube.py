@@ -17,7 +17,7 @@ import shutil
 from typing import Dict, List, Optional, Tuple, Union
 from urllib.parse import urlparse
 
-import yt_dlp
+import EsproMusic
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from py_yt import VideosSearch
